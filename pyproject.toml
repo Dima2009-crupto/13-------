@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "13 работа"
+version = "0.1.0"
+description = ""
+authors = ["Dima2009-crupto <dimaparoldima1234@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+flask-restful = "^0.3.10"
+flask-cors = "^5.0.0"
+sqlalchemy = "^2.0.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
